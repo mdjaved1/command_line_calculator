@@ -25,6 +25,7 @@ class Calculator
         arrdiv << str_i[index + 1].to_f 
         puts arrdiv
         return arrdiv.map(&:to_i).reduce(:/)
+        
       else
       
       end
